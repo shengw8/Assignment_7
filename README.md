@@ -11,20 +11,20 @@ Time spent: 10 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.0-4.7.2(4.2.2)
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: https://github.com/shengw8/Assignment_7/blob/master/Youtube_Embed.gif
-  - [ ] Steps to recreate: 
+  - [ ] GIF Walkthrough: <img src="https://github.com/shengw8/Assignment_7/blob/master/Youtube_embed.gif" width="800">
+  - [ ] Steps to recreate: 1. Type the attack command line "[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]" into a new post or page; 2. Save changes, and then view the page; 3. Alert will show
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+2. Large File Upload Error XSS
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: XSS
+    - Tested in version: 3.3-4.7.4(4.2.2)
+    - Fixed in version: 4.2.15
+  - [ ] GIF Walkthrough: <img src="https://github.com/shengw8/Assignment_7/blob/master/Media_Too_Large_XSS.gif" width="800">
+  - [ ] Steps to recreate: 1. Change one of the filenames on your local computer to "Dinosaurs secret life<img src=x onerror=alert("alert!!!!")>". 2. Upload this file to a new post or page by adding media. 3. Alert will show
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+    - [Link 2](https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6)
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:

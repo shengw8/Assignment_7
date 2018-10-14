@@ -38,7 +38,7 @@ Time spent: 10 hours spent in total
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough:  <img src="https://github.com/shengw8/Assignment_7/blob/master/Media_Too_Large_XSS.gif" width="800">
+  - [ ] GIF Walkthrough:  
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)

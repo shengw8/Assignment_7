@@ -24,21 +24,21 @@ Time spent: 10 hours spent in total
   - [ ] Steps to recreate: 1. Change one of the filenames on your local computer to "Dinosaurs secret life<img src=x onerror=alert("alert!!!!")>". 2. Upload this file to a new post or page by adding media. 3. Alert will show
   - [ ] Affected source code:
     - [Link 2](https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6)
-3. (Required) Vulnerability Name or ID
+3. Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: XSS
+    - Tested in version: <=4.2.2(4.2.2)
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: <img src="https://github.com/shengw8/Assignment_7/blob/master/Authenticated%20XSS.gif" width="800">
+  - [ ] Steps to recreate: 1. Type the attack command line "https://wpdistillery.vm/<svg onload=alert(1)>" on the comments. 2. Save changes and then upload; 3. Alert will show
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 3](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5623)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:  <img src="https://github.com/shengw8/Assignment_7/blob/master/Media_Too_Large_XSS.gif" width="800">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)

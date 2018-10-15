@@ -33,16 +33,16 @@ Time spent: 10 hours spent in total
   - [ ] Steps to recreate: 1. Type the attack command line "https://wpdistillery.vm/<svg onload=alert(1)>" on the comments. 2. Save changes and then upload; 3. Alert will show
   - [ ] Affected source code:
     - [Link 3](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5623)
-1. (Optional) Vulnerability Name or ID
+4. (Optional) Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough:  
-  - [ ] Steps to recreate: 
+    - Vulnerability types: XSS
+    - Tested in version: <=4.2.2(4.2.2)
+    - Fixed in version: 4.2.3 
+  - [ ] GIF Walkthrough: <img src="<img src="https://github.com/shengw8/Assignment_7/blob/master/Authenticated%20XSS.gif" width="800">" width="800">
+  - [ ] Steps to recreate:  Type the attack command line "<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>"(A LOT of A) on the comments. 2. Save changes and then upload; 3. Alert will show
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
+    - [Link 4](https://wpvulndb.com/vulnerabilities/7945)
+5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:

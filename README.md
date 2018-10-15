@@ -38,7 +38,7 @@ Time spent: 10 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: <=4.2.2(4.2.2)
     - Fixed in version: 4.2.3 
-  - [ ] GIF Walkthrough: <img src="<img src="https://github.com/shengw8/Assignment_7/blob/master/Authenticated%20XSS.gif" width="800">" width="800">
+  - [ ] GIF Walkthrough: <img src="<img src="https://github.com/shengw8/Assignment_7/blob/master/Unauthenticated%20XSS.gif" width="800">" width="800">
   - [ ] Steps to recreate:  Type the attack command line "<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>"(A LOT of A) on the comments. 2. Save changes and then upload; 3. Alert will show
   - [ ] Affected source code:
     - [Link 4](https://wpvulndb.com/vulnerabilities/7945)
